@@ -6,6 +6,6 @@ output "api_id" {
   value = aws_api_gateway_account.demo.id
 }
 
-output "stage_name1" {
+output "stage_name" {
   value = aws_api_gateway_stage.example.stage_name
 }
